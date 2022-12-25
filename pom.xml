@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.ng</groupId>
+	<artifactId>cloud</artifactId>
+	<version>${cloud.version}</version>
+	<packaging>pom</packaging>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.build.targetEncoding>UTF-8</project.build.targetEncoding>
+		<netty.version>4.1.20.Final</netty.version>
+		<cloud.version>0.0.1</cloud.version>
+		<cloud.type>PRE</cloud.type>
+	</properties>
+
+	<developers>
+		<developer>
+			<id>Ng</id>
+			<name>Nils Gereke</name>
+			<email>nilsgereke1@gmail.com</email>
+			<timezone>24.01.2018 17:31:30</timezone>
+		</developer>
+	</developers>
+
+	<modules>
+		<module>core</module>
+		<module>deamon</module>
+		<module>master</module>
+		<module>addons</module>
+	</modules>
+</project>
